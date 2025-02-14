@@ -49,7 +49,7 @@ body {
   height: 288px;
   width: 288px;
   border-radius: 10px;
-  background-image: url("/images/image-qr-code.png");
+  background-image: url("/qr-code-component/images/image-qr-code.png");
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -59,6 +59,7 @@ body {
   letter-spacing: 0.2px;
   color: var(--slate-500);
   margin: 0 var(--spacing-200) var(--spacing-500);
+  width: 256px;
 }
 
 h2 {
