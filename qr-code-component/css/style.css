@@ -49,7 +49,7 @@ body {
   height: 288px;
   width: 288px;
   border-radius: 10px;
-  background-image: url("/qr-code-component/images/image-qr-code.png");
+  background-image: url("../images/image-qr-code.png");
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
