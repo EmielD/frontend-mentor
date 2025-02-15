@@ -1,0 +1,54 @@
+/* Variable collection */
+:root {
+    /* Mode 1 */
+    /* color */
+    --color-gray-500: #6b6b6b;
+    --color-gray-950: #111111;
+    --color-white: #ffffff;
+    --color-yellow: #f4d04e;
+    /* number */
+    --font-size-text-preset-3: 0.875rem;
+    --font-size-text-preset-2: 1rem;
+    --font-size-text-preset-1: 1.5rem;
+    --spacing-50: 0.25rem;
+    --spacing-100: 0.5rem;
+    --spacing-150: 0.75rem;
+    --spacing-200: 1.5rem;
+  }
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-yellow);
+  font: var(--text-preset-2);
+}
+
+.card{
+    background-color: white;
+    width: 384px;
+    height: 522px;
+    border-radius: 20px;
+    stroke: black;
+    border-style: solid;
+    box-sizing: border-box;
+    box-shadow: 8px 8px 0px black;
+}
+
+.blog-image {
+    margin: var(--spacing-200);
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    display: block;
+}
